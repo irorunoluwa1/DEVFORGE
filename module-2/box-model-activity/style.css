@@ -1,0 +1,80 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin: o;
+  padding: 30px;
+}
+h1{
+  text-align: center;
+  color: brown;
+  margin-bottom: 30px;
+}
+
+.container{
+  border: 2px solid brown;
+  padding: 30px;
+  margin-bottom: 60px;
+  background-color: bisque;
+}
+
+/* the general box style */
+.box{
+  width: 160px;
+  height: 90px;
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid blanchedalmond;
+  background-color: brown;
+  display: inline-block;
+  text-align: left;
+  line-height: 110px;
+  font-weight: bolder;
+}
+
+.box1{
+  border-color: burlywood;
+  position: static;
+}
+.box2{
+  background-color: burlywood;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.box3{
+  background-color: darkkhaki;
+  position: absolute;
+  top: 70px;
+  right: 25px;
+
+}
+.box4{
+  border-color: burlywood;
+  position: relative;
+  left: 100px;
+  width: 300px;
+}
+
+footer
+{
+background: burlywood
+;
+color: brown
+;
+padding: 15px
+;
+
+text
+-align: center
+;
+position: fixed
+;
+bottom:
+0
+;
+left:
+0
+;
+width: 100%
+;
+}
+

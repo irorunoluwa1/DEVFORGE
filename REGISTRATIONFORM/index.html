@@ -1,105 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
-    <meta name ="description" content="A simple registration form with validations and accessibility.">
-    <link rel="icon" href="favicon.ico">
-</head>
-<body>
+    <meta
+      name="description"
+      content="A simple registration form with validations and accessibility."
+    />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
     <header>
-        <h1>Registration Form</h1>
-        <p> Fill in the form below to register</p>
+      <h1>Registration Form</h1>
+      <p>Fill in the form below to register</p>
     </header>
     <main>
       <form action="#" method="POST" aria-label="Registration Form">
         <fieldset>
-          <legend>Personal Information
-          </legend>
+          <legend>Personal Information</legend>
           <label for="Fullname">Full Name:</label>
-          <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required>
-          <br><br>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Enter your full name"
+            required
+          />
+          <br /><br />
 
           <label for="dob">Date of Birth:</label>
-          <input type="date" name="dob" id="dob" required>
-          <br><br>
+          <input type="date" name="dob" id="dob" required />
+          <br /><br />
 
           <label for="age">Age:</label>
-          <input type="number" name="age" id="age" min="10" max="70">
-          <br><br>
+          <input type="number" name="age" id="age" min="10" max="70" />
+          <br /><br />
 
           <p>Gender</p>
           <label>
-            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="male" required /> Male
           </label>
-          <label><input type="radio" name="gender" value="female"> Female</label>
-          <label><input type="radio" name="gender" value="other"> Other</label>
-          <br><br>
-      </fieldset>
-       <br>
-       <fieldset>
-        <legend>Account Information</legend>
+          <label
+            ><input type="radio" name="gender" value="female" /> Female</label
+          >
+          <label
+            ><input type="radio" name="gender" value="other" /> Other</label
+          >
+          <br /><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Account Information</legend>
 
-        <label for="email">Emal:</label>
-          <input type="email" name="email" id="email" placeholder="mark2@gmail.com" required>
-          <br><br>
+          <label for="email">Emal:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="mark2@gmail.com"
+            required
+          />
+          <br /><br />
 
           <label for="username">Username:</label>
-          <input type="text" name="username" id="username" placeholder="your uername">     
-          <br><br>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="your uername"
+          />
+          <br /><br />
 
           <label for="password">Password:</label>
-          <input type="password" name="password" id="password" placeholder="your password" minlength="8" required>
-          <br><br>
-
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="your password"
+            minlength="8"
+            required
+          />
+          <br /><br />
         </fieldset>
 
-      <br>
+        <br />
 
-      <fieldset>
-        <legend>Preferences</legend>
-        <p>Which of the following are you interested in? </p>
-        <br>
-        <input type="checkbox" name="interest" id="coding" value="coding">
-        <label for="coding">Coding</label>
+        <fieldset>
+          <legend>Preferences</legend>
+          <p>Which of the following are you interested in?</p>
+          <br />
+          <input type="checkbox" name="interest" id="coding" value="coding" />
+          <label for="coding">Coding</label>
 
-        <input type="checkbox" name="interest" id="music" value="music">
-        <label for="music">Music</label>
+          <input type="checkbox" name="interest" id="music" value="music" />
+          <label for="music">Music</label>
 
-        <input type="checkbox" name="interest" id="art" value="art">
-        <label for="art">Art</label>
+          <input type="checkbox" name="interest" id="art" value="art" />
+          <label for="art">Art</label>
 
-        <br><br>
+          <br /><br />
 
-        <p>Which country do you want to learn?</p>
-        <select id="country" name="country" required>
-          <option value="Nigeria">Nigeria</option>
-          <option value="usa">USA</option>
-          <option value="uk">UK</option>
-          <option value="germany">Germany</option>
-          <option value="france">France</option>
-        </select>
-     </fieldset>
-     <br>
-     <fieldset>
-       
-       <legend>Preferences</legend>
+          <p>Which country do you want to learn?</p>
+          <select id="country" name="country" required>
+            <option value="Nigeria">Nigeria</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+          </select>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Preferences</legend>
 
-       <label>
+          <label>
+            <input type="checkbox" name="terms" required />
 
-        <input type="checkbox" name="terms" required>
-
-        I agree to the <a href="#">terms and conditions</a>
-
-      </label>
-     </fieldset>
-     <br><br><br>
-     <button type="submit">Register</button>
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </fieldset>
+        <br /><br /><br />
+        <button type="submit">Register</button>
       </form>
-      <br><br><br><br><br>
-<footer>
-      <p>&copy; 2026 Irorunoluwa Idowu Aregbesola</p>
-</footer>
+      <br /><br /><br /><br /><br />
+      <footer>
+        <p>&copy; 2026 Irorunoluwa Idowu Aregbesola</p>
+      </footer>
     </main>
   </body>
+</html>
