@@ -42,15 +42,17 @@ h1{
 }
 .box3{
   background-color: darkkhaki;
-  position: absolute;
-  top: 70px;
-  right: 25px;
+  position: sticky;
+  top: 0;
+
+
 
 }
 .box4{
   border-color: burlywood;
-  position: relative;
-  left: 100px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
   width: 300px;
 }
 
