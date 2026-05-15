@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 2;
+  padding: 20px;
+
+}
+header{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile{
+  text-align: center;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+@media (min-width:768px){
+  .container{
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .profile, .about-me{
+    flex: 1;
+  }
+  .profile{
+    text-align: right;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1024px) {
+body {
+max-width: 1000px;
+margin: auto;
+}
+header h1 {
+font-size: 2.5rem;
+}
+.profile img {
+width: 200px;
+}
+}
